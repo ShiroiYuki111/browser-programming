@@ -4,7 +4,7 @@
 - Created a semantic header with H1 and personal bio.
 - Implemented a Portfolio section using `<section>`, `<figure>`, and `<figcaption>`.
 - Added a "Skip to content" link for accessibility.
-- Embedded a YouTube video using `<iframe>`.
+
 
 ## 2. Semantic decisions I made (REQUIRED)
 
