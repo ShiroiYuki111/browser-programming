@@ -13,19 +13,8 @@
 - Where in the page: Top and bottom of the document.
 - Why this element is semantically correct: These provide clear landmarks for screen readers to identify introductory content and site-wide metadata.
 
-### Decision 2
-- Element(s) used: `<figure>` and `<figcaption>`
-- Where in the page: Inside the Portfolio section.
-- Why this element is semantically correct: It explicitly links the media (images/video) with its descriptive text, improving accessibility and structure.
-
-### Decision 3
-- Element(s) used: `<h1>`, `<h2>`, `<h3>`
-- Where in the page: Throughout the document.
-- Why this element is semantically correct: I followed a strict hierarchy (only one H1) to ensure the page outline is logical for users and search engines.
-
 ## 3. Accessibility considerations
 - Included a Skip Link to allow keyboard users to bypass the header.
-- Added descriptive `alt` text to all images for visually impaired users.
 
 ## 4. What I learned
 - I learned how to group media and captions properly using semantic tags instead of just using divs.
