@@ -1,0 +1,126 @@
+/* Base Typography & Layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 1.8rem; }
+
+header, footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+nav a:hover {
+    text-decoration: underline; 
+    color: #003d82;
+}
+
+/* Buttons & Images */
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover { background-color: #003d82; }
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.card {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-card {
+    background-color: #e2e8f0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Projects */
+.project-card {
+    border-left: 4px solid #0056b3;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.project-card h3 { margin-top: 0; }
+
+/* ==========================================
+   Dark Mode Theme
+   ========================================== */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode header, 
+.dark-mode footer {
+    background-color: #222222;
+}
+
+.dark-mode a { color: #4da6ff; }
+.dark-mode .card { border-color: #444444; }
+
+.dark-mode .skill-card {
+    background-color: #334155;
+    color: #f8fafc;
+}
+
+.dark-mode .project-card {
+    background-color: #1e293b;
+    border-left-color: #4da6ff;
+}
