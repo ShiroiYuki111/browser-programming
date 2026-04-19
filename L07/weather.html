@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Regan Dangol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather App</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">← Back to Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="card">
+            <h2>Live Weather Data</h2>
+            <p>Current weather data fetched dynamically from a public API.</p>
+
+            <button id="btnKuopio">Kuopio</button>
+            <button id="btnHelsinki">Helsinki</button>
+
+            <div id="weatherBox" style="margin-top: 20px;">
+                <p><strong>City:</strong> <span id="city">-</span></p>
+                <p><strong>Temperature:</strong> <span id="temperature">-</span></p>
+                <p><strong>Wind Speed:</strong> <span id="wind">-</span></p>
+            </div>
+
+            <pre id="output" style="background: #e2e8f0; padding: 10px; margin-top: 20px; border-radius: 5px; color: #333;"></pre>
+        </section>
+    </main>
+
+    <script src="weather.js"></script>
+</body>
+</html>
